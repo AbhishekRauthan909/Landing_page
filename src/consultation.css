@@ -1,0 +1,26 @@
+/* consultation.css */
+.consultation-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    font-family: 'Arial', sans-serif; 
+    font-weight:bold;
+    font-size: 35px;
+    color: #333;
+    margin-bottom: -230px;
+  }
+  
+  .cimage {
+    margin-top:20px;
+    margin-left: 30px;
+    width: 90%;
+    height: 90%; /* Increase the height as needed */
+    transform: scale(1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .cimage:hover {
+    transform: scale(1.05); 
+  }
+  

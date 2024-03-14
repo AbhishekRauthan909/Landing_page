@@ -1,0 +1,63 @@
+.parent {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .child {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+  
+  .hos,
+  .doct {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .dat
+  {
+    margin-top:-40px;
+  }
+
+  .numeric {
+    margin-left: 10px;
+  }
+  
+  .doct-data {
+    margin-left: 40px;
+  }
+  
+  .numeric p {
+    /* margin-top:-50px; */
+  }
+  
+  .hos img {
+    max-width: 100%;
+    height: auto;
+    max-height: 80px;
+  }
+  
+  .doct img {
+    max-width: 100%;
+    height: auto;
+    max-height: 80px;
+    margin-left: 15px;
+  }
+  
+  .child:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .child:nth-child(2) img {
+    width: 100%;
+    height: auto;
+  }
+  
